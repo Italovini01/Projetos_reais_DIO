@@ -2,11 +2,16 @@ import { StatusBar } from 'expo-status-bar';
 import React from "react";
 import {Text, View} from "react-native";
 import styles from './Style';
+import { BatLogo } from '../../components/BatLogo/BatLogo';
+
 
 export default function Home() {
     return(
         <View style={styles.container}>
-        <Text>Welcome</Text>
+            <View>
+            <BatLogo/>
+            </View>
+            <Text>Welcome</Text>
         <StatusBar style="auto" />
         </View>
     )
