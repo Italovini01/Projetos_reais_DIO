@@ -15,7 +15,6 @@ export default function Home() {
             <BatLogo/>
             </View>
         <View style={styles.inputContainer}>
-            <BatTextInput/>
             <BatButton/>
         </View>
 
